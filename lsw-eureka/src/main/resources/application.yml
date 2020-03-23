@@ -1,0 +1,15 @@
+server:
+  port: 8001
+  host: http://localhost
+spring:
+  application:
+    name: lsw-eureka
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      #      default-zone: ${server.host}:${server.port}/eureka/
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    prefer-ip-address: true

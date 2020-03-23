@@ -1,0 +1,357 @@
+2020-03-14 19:20:03,045 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2020-03-14 19:20:03,080 INFO o.a.j.JMeter: Loading user properties from: /usr/local/apache-jmeter-5.2.1/bin/user.properties
+2020-03-14 19:20:03,081 INFO o.a.j.JMeter: Loading system properties from: /usr/local/apache-jmeter-5.2.1/bin/system.properties
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: Version 5.2.1
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: java.version=1.8.0_202
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: os.arch=x86_64
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: os.version=10.15.3
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: java.awt.headless=null
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-14 19:20:03,083 INFO o.a.j.JMeter: Available Processors =8
+2020-03-14 19:20:03,086 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-14 19:20:03,087 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2020-03-14 19:20:03,087 INFO o.a.j.JMeter: JMeterHome=/usr/local/apache-jmeter-5.2.1
+2020-03-14 19:20:03,087 INFO o.a.j.JMeter: user.dir  =/Users/daadreeam/IdeaProjects/github/mysecurity
+2020-03-14 19:20:03,087 INFO o.a.j.JMeter: PWD       =/Users/daadreeam/IdeaProjects/github/mysecurity
+2020-03-14 19:20:03,088 INFO o.a.j.JMeter: IP: 192.168.1.69 Name: bogon FullName: bogon
+2020-03-14 19:20:04,473 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-03-14 19:20:04,492 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-03-14 19:20:04,493 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-03-14 19:20:04,562 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-03-14 19:20:06,378 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-14 19:20:06,378 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-14 19:20:06,378 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-14 19:20:06,378 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-14 19:20:06,378 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-14 19:20:06,379 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-14 19:20:06,700 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-03-14 19:20:06,701 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/apache-jmeter-5.2.1/bin/proxyserver.jks
+2020-03-14 19:20:06,849 INFO o.a.j.s.FileServer: Default base='/Users/daadreeam/IdeaProjects/github/mysecurity'
+2020-03-14 19:20:07,136 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-14 19:20:07,137 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-03-14 19:20:07,137 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-14 19:20:07,137 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-14 19:22:16,208 INFO o.a.j.s.FileServer: Set new base='/Users/daadreeam/IdeaProjects/github/mysecurity'
+2020-03-14 19:22:16,355 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-03-14 19:22:16,362 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-03-14 19:22:16,364 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-03-14 19:22:16,384 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-14 19:22:16,385 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-14 19:22:16,385 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-14 19:22:16,389 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-03-14 19:22:16,389 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-03-14 19:22:16,669 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-14 19:22:16,807 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2020-03-14 19:22:16,807 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group 线程组.
+2020-03-14 19:22:16,807 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-14 19:22:16,808 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 delayedStart=false
+2020-03-14 19:22:16,814 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2020-03-14 19:22:16,821 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2020-03-14 19:22:16,832 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2020-03-14 19:22:16,835 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = bogon
+2020-03-14 19:22:16,841 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2020-03-14 19:22:16,843 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-14 19:22:16,843 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-14 19:22:16,845 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-03-14 19:22:16,852 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2020-03-14 19:22:16,860 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2020-03-14 19:22:16,874 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2020-03-14 19:22:16,881 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2020-03-14 19:22:16,895 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2020-03-14 19:22:16,902 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2020-03-14 19:22:16,912 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2020-03-14 19:22:16,921 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2020-03-14 19:22:16,933 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2020-03-14 19:22:16,945 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2020-03-14 19:22:16,954 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2020-03-14 19:22:16,962 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2020-03-14 19:22:16,972 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2020-03-14 19:22:16,980 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2020-03-14 19:22:16,992 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2020-03-14 19:22:17,000 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2020-03-14 19:22:17,012 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2020-03-14 19:22:17,025 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2020-03-14 19:22:17,029 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2020-03-14 19:22:17,044 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2020-03-14 19:22:17,050 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2020-03-14 19:22:17,062 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2020-03-14 19:22:17,072 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2020-03-14 19:22:17,080 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2020-03-14 19:22:17,090 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2020-03-14 19:22:17,104 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2020-03-14 19:22:17,113 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2020-03-14 19:22:17,120 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2020-03-14 19:22:17,131 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2020-03-14 19:22:17,141 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2020-03-14 19:22:17,153 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2020-03-14 19:22:17,161 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2020-03-14 19:22:17,174 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2020-03-14 19:22:17,183 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2020-03-14 19:22:17,193 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2020-03-14 19:22:17,200 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2020-03-14 19:22:17,213 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2020-03-14 19:22:17,222 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2020-03-14 19:22:17,230 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2020-03-14 19:22:17,239 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2020-03-14 19:22:17,251 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2020-03-14 19:22:17,262 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2020-03-14 19:22:17,275 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2020-03-14 19:22:17,282 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2020-03-14 19:22:17,292 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2020-03-14 19:22:17,303 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2020-03-14 19:22:17,313 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-51
+2020-03-14 19:22:17,325 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-52
+2020-03-14 19:22:17,332 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-53
+2020-03-14 19:22:17,339 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-54
+2020-03-14 19:22:17,351 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-55
+2020-03-14 19:22:17,362 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-56
+2020-03-14 19:22:17,371 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-57
+2020-03-14 19:22:17,382 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-58
+2020-03-14 19:22:17,390 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-59
+2020-03-14 19:22:17,400 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-60
+2020-03-14 19:22:17,413 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-61
+2020-03-14 19:22:17,423 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-62
+2020-03-14 19:22:17,430 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-63
+2020-03-14 19:22:17,440 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-64
+2020-03-14 19:22:17,451 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-65
+2020-03-14 19:22:17,463 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-66
+2020-03-14 19:22:17,471 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-67
+2020-03-14 19:22:17,481 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-68
+2020-03-14 19:22:17,490 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-69
+2020-03-14 19:22:17,500 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-70
+2020-03-14 19:22:17,512 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-71
+2020-03-14 19:22:17,523 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-72
+2020-03-14 19:22:17,531 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-73
+2020-03-14 19:22:17,543 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-74
+2020-03-14 19:22:17,551 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-75
+2020-03-14 19:22:17,562 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-76
+2020-03-14 19:22:17,574 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-77
+2020-03-14 19:22:17,581 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-78
+2020-03-14 19:22:17,595 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-79
+2020-03-14 19:22:17,603 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-80
+2020-03-14 19:22:17,613 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-81
+2020-03-14 19:22:17,623 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-82
+2020-03-14 19:22:17,630 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-83
+2020-03-14 19:22:17,641 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-84
+2020-03-14 19:22:17,654 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-85
+2020-03-14 19:22:17,663 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-86
+2020-03-14 19:22:17,671 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-87
+2020-03-14 19:22:17,683 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-88
+2020-03-14 19:22:17,691 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-89
+2020-03-14 19:22:17,703 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-90
+2020-03-14 19:22:17,714 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-91
+2020-03-14 19:22:17,722 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-92
+2020-03-14 19:22:17,730 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-93
+2020-03-14 19:22:17,744 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-94
+2020-03-14 19:22:17,754 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-95
+2020-03-14 19:22:17,763 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-96
+2020-03-14 19:22:17,775 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-97
+2020-03-14 19:22:17,783 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-98
+2020-03-14 19:22:17,790 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-99
+2020-03-14 19:22:17,800 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-100
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2020-03-14 19:22:32,319 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2020-03-14 19:22:32,320 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2020-03-14 19:22:32,320 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2020-03-14 19:22:32,320 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2020-03-14 19:22:32,321 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2020-03-14 19:22:32,322 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2020-03-14 19:22:32,322 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2020-03-14 19:22:32,322 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2020-03-14 19:22:32,322 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2020-03-14 19:22:32,322 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2020-03-14 19:22:32,323 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2020-03-14 19:22:32,323 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2020-03-14 19:22:32,323 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2020-03-14 19:22:32,323 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2020-03-14 19:22:32,324 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2020-03-14 19:22:32,324 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2020-03-14 19:22:32,325 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2020-03-14 19:22:32,325 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2020-03-14 19:22:32,326 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2020-03-14 19:22:32,326 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2020-03-14 19:22:32,326 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2020-03-14 19:22:32,327 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2020-03-14 19:22:32,327 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-52
+2020-03-14 19:22:32,327 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-52
+2020-03-14 19:22:32,328 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-82
+2020-03-14 19:22:32,328 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-82
+2020-03-14 19:22:32,329 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2020-03-14 19:22:32,329 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2020-03-14 19:22:32,338 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-78
+2020-03-14 19:22:32,338 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-56
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-78
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-88
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-60
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-88
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-90
+2020-03-14 19:22:32,339 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-56
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-98
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-98
+2020-03-14 19:22:32,341 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-60
+2020-03-14 19:22:32,341 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2020-03-14 19:22:32,341 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2020-03-14 19:22:32,341 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2020-03-14 19:22:32,341 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2020-03-14 19:22:32,342 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-68
+2020-03-14 19:22:32,342 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-68
+2020-03-14 19:22:32,343 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2020-03-14 19:22:32,343 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2020-03-14 19:22:32,340 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-90
+2020-03-14 19:22:32,344 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-66
+2020-03-14 19:22:32,345 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-66
+2020-03-14 19:22:32,346 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-80
+2020-03-14 19:22:32,347 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-80
+2020-03-14 19:22:32,348 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-62
+2020-03-14 19:22:32,348 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-62
+2020-03-14 19:22:32,348 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-92
+2020-03-14 19:22:32,348 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-92
+2020-03-14 19:22:32,359 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-70
+2020-03-14 19:22:32,359 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-70
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-84
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-84
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2020-03-14 19:22:32,378 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2020-03-14 19:22:32,380 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2020-03-14 19:22:32,382 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-64
+2020-03-14 19:22:32,382 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-64
+2020-03-14 19:22:32,383 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2020-03-14 19:22:32,383 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2020-03-14 19:22:32,398 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-72
+2020-03-14 19:22:32,398 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-72
+2020-03-14 19:22:32,399 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2020-03-14 19:22:32,399 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2020-03-14 19:22:32,403 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2020-03-14 19:22:32,403 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2020-03-14 19:22:32,404 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-74
+2020-03-14 19:22:32,404 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-74
+2020-03-14 19:22:32,432 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2020-03-14 19:22:32,433 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2020-03-14 19:22:32,434 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-86
+2020-03-14 19:22:32,435 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-86
+2020-03-14 19:22:32,439 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2020-03-14 19:22:32,439 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2020-03-14 19:22:32,441 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2020-03-14 19:22:32,442 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2020-03-14 19:22:32,443 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-100
+2020-03-14 19:22:32,443 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-100
+2020-03-14 19:22:32,443 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-96
+2020-03-14 19:22:32,443 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-96
+2020-03-14 19:22:32,445 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-76
+2020-03-14 19:22:32,445 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-76
+2020-03-14 19:22:32,449 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2020-03-14 19:22:32,449 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2020-03-14 19:22:32,452 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-58
+2020-03-14 19:22:32,452 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-58
+2020-03-14 19:22:32,452 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-51
+2020-03-14 19:22:32,452 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-51
+2020-03-14 19:22:32,455 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-57
+2020-03-14 19:22:32,455 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-57
+2020-03-14 19:22:32,459 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2020-03-14 19:22:32,460 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2020-03-14 19:22:32,463 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2020-03-14 19:22:32,463 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2020-03-14 19:22:32,466 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-54
+2020-03-14 19:22:32,466 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-54
+2020-03-14 19:22:32,471 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2020-03-14 19:22:32,471 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2020-03-14 19:22:32,474 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-59
+2020-03-14 19:22:32,474 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-59
+2020-03-14 19:22:32,476 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-53
+2020-03-14 19:22:32,476 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-53
+2020-03-14 19:22:32,477 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2020-03-14 19:22:32,477 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2020-03-14 19:22:32,481 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-94
+2020-03-14 19:22:32,481 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-94
+2020-03-14 19:22:32,487 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-73
+2020-03-14 19:22:32,487 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-73
+2020-03-14 19:22:32,494 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2020-03-14 19:22:32,495 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2020-03-14 19:22:32,497 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2020-03-14 19:22:32,497 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2020-03-14 19:22:32,500 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-77
+2020-03-14 19:22:32,500 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-77
+2020-03-14 19:22:32,501 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-69
+2020-03-14 19:22:32,501 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-65
+2020-03-14 19:22:32,501 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-69
+2020-03-14 19:22:32,501 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-65
+2020-03-14 19:22:32,510 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2020-03-14 19:22:32,510 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2020-03-14 19:22:32,511 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-85
+2020-03-14 19:22:32,511 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-85
+2020-03-14 19:22:32,512 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-67
+2020-03-14 19:22:32,512 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-67
+2020-03-14 19:22:32,514 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-63
+2020-03-14 19:22:32,514 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-63
+2020-03-14 19:22:32,515 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-95
+2020-03-14 19:22:32,515 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-95
+2020-03-14 19:22:32,516 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2020-03-14 19:22:32,516 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2020-03-14 19:22:32,516 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-89
+2020-03-14 19:22:32,516 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-89
+2020-03-14 19:22:32,518 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-99
+2020-03-14 19:22:32,518 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-99
+2020-03-14 19:22:32,519 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2020-03-14 19:22:32,519 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2020-03-14 19:22:32,520 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2020-03-14 19:22:32,520 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2020-03-14 19:22:32,523 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2020-03-14 19:22:32,523 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2020-03-14 19:22:32,523 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2020-03-14 19:22:32,523 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2020-03-14 19:22:32,524 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-83
+2020-03-14 19:22:32,524 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-93
+2020-03-14 19:22:32,524 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-83
+2020-03-14 19:22:32,524 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-93
+2020-03-14 19:22:32,525 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-75
+2020-03-14 19:22:32,525 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-75
+2020-03-14 19:22:32,527 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2020-03-14 19:22:32,527 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2020-03-14 19:22:32,528 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2020-03-14 19:22:32,529 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2020-03-14 19:22:32,529 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-87
+2020-03-14 19:22:32,529 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-87
+2020-03-14 19:22:32,531 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-81
+2020-03-14 19:22:32,531 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-81
+2020-03-14 19:22:32,533 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-97
+2020-03-14 19:22:32,533 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-97
+2020-03-14 19:22:32,534 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-61
+2020-03-14 19:22:32,534 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-61
+2020-03-14 19:22:32,534 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-55
+2020-03-14 19:22:32,535 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-55
+2020-03-14 19:22:32,536 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-79
+2020-03-14 19:22:32,536 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-79
+2020-03-14 19:22:32,537 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2020-03-14 19:22:32,537 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2020-03-14 19:22:32,542 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-71
+2020-03-14 19:22:32,542 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-71
+2020-03-14 19:22:32,543 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2020-03-14 19:22:32,544 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2020-03-14 19:22:32,544 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2020-03-14 19:22:32,545 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2020-03-14 19:22:32,545 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2020-03-14 19:22:32,545 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2020-03-14 19:22:32,547 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-91
+2020-03-14 19:22:32,547 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-91
+2020-03-14 19:22:32,547 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-14 19:22:32,547 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: lsw-common
+  redis:
+#    host: 47.93.198.65
+#    password: lsw
+#    port: 6379
+#    cluster:
+#      nodes:
+#        - 192.168.1.87:6379
+#        - 192.168.1.87:6380
+#        - 192.168.1.87:6381
+      ##哨兵
+    sentinel:
+      master: mymaster
+      nodes:
+        - 192.168.1.87:26379
+        - 192.168.1.87:26380
+        - 192.168.1.87:26381
+
+server:
+  port: 9999
+redisson:
+  address: redis://127.0.0.1:6379
+  password: lsw

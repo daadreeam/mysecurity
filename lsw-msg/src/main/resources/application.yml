@@ -1,0 +1,25 @@
+server:
+  port: 8008
+spring:
+  zipkin:
+    base-url: http://47.93.198.65:9411
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      #      percentage: 1.0 !!!!!! !!
+      probability: 1.0
+  application:
+    name: lsw-msg
+  rabbitmq:
+    host: 47.93.198.65
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true

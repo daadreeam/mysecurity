@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+server:
+  port: 9000
+spring:
+  application:
+    name: lsw-zipkin-server
+
+# 解决 There is already an existing meter named 'http_server_requests_seconds'
+# 参考连接：https://www.cnblogs.com/commissar-Xia/p/11432635.html
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
