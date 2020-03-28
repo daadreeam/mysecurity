@@ -1,0 +1,66 @@
+server:
+  port: 8010
+spring:
+  profiles:
+    active: dev
+  application:
+    name: lsw-config-client
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 47.93.198.65:9092
+          zk-nodes: 47.93.198.65:2181
+    config:
+#      profile: prod # 通过指定上边那个配置就可以了
+      # config-server服务地址
+      uri: http://localhost:8009/
+      fail-fast: true # 快速失败
+
+    # 开启消息跟踪
+    bus:
+      trace:
+        enabled: true
+
+
+  # kafka配置
+  kafka:
+    bootstrap-servers: 47.93.198.65:9092
+    topic: # 这个组名和topic名字是自定义的
+      group-id: topicGroupId
+      topic-name:
+        - topic1
+        - topic2
+        - topic3
+    producer:
+      retries: 0
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        linger.ms: 1
+    consumer:
+      enable-auto-commit: false # 自动提交否
+      auto-commit-interval: 100ms
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties:
+        session.timeout.ms: 15000
+      group-id: spring-cloud-bus
+
+#      #Kafka的服务端列表，默认localhost
+#      spring.cloud.stream.kafka.binder.brokers=192.168.18.136:9092
+#      #Kafka服务端的默认端口，当brokers属性中没有配置端口信息时，就会使用这个默认端口，默认9092
+#      spring.cloud.stream.kafka.binder.defaultBrokerPort=9092
+#      #Kafka服务端连接的ZooKeeper节点列表，默认localhost
+#      spring.cloud.stream.kafka.binder.zkNodes=192.168.18.136:2181
+#      #ZooKeeper节点的默认端口，当zkNodes属性中没有配置端口信息时，就会使用这个默认端口，默认2181
+#      spring.cloud.stream.kafka.binder.defaultZkPort=2181
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#        include: 'bus-refresh'

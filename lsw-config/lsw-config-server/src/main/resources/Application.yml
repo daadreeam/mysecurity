@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: lsw-config-server
+  cloud:
+    config:
+      lable: master
+      server:
+        git:
+          uri: https://github.com/daadreeam/cloud-config
+          search-paths: '{application}'
+          # 本地仓库
+#          basedir: /Users/daadreeam/IdeaProjects/github/cloud-config
+          # 本地仓库如果有脏数据，则会强制拉取（默认是false）
+          force-pull: true
+          # 配置中心启动后从Git仓库下载，如果uri配置中使用了{application}作为仓库名，这里要使用默认值false，否则启动报错.
+          clone-on-start: true
+#          username: daadreeam
+#          password: lsw19960917
+server:
+  port: 8009
