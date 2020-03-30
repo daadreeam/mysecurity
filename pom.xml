@@ -12,6 +12,7 @@
         <module>lsw-sleuth</module>
         <module>lsw-common</module>
         <module>lsw-config</module>
+        <module>lsw-elasticsearch</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

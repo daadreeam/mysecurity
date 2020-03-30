@@ -2,21 +2,21 @@ spring:
   application:
     name: lsw-common
   redis:
-#    host: 47.93.198.65
-#    password: lsw
-#    port: 6379
+    host: 47.93.198.65
+    password: lsw
+    port: 6379
 #    cluster:
 #      nodes:
 #        - 192.168.1.87:6379
 #        - 192.168.1.87:6380
 #        - 192.168.1.87:6381
       ##哨兵
-    sentinel:
-      master: mymaster
-      nodes:
-        - 192.168.1.87:26379
-        - 192.168.1.87:26380
-        - 192.168.1.87:26381
+#    sentinel:
+#      master: mymaster
+#      nodes:
+#        - 192.168.1.87:26379
+#        - 192.168.1.87:26380
+#        - 192.168.1.87:26381
 
   # kafka配置
   kafka:
@@ -43,6 +43,15 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       properties:
         session.timeout.ms: 15000
+#elasticsearch用了自己的客户端没有用spring的，所以得额外配置
+elasticsearch:
+  schema: http
+  address: 47.93.198.65:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
 
 
 server:
