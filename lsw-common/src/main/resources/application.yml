@@ -1,4 +1,8 @@
 spring:
+  rabbitmq: # rabbitmq相关的
+    host: 47.93.198.65
+    username: guest
+    password: guest
   application:
     name: lsw-common
   redis:
@@ -28,7 +32,10 @@ spring:
         - topic2
         - topic3
     producer:
-      retries: 0
+      acks: all
+      retries: 3
+#      enable-idempotence: true # 生产者保证幂等性
+#        idempotence: true
       batch-size: 16384
       buffer-memory: 33554432
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
@@ -36,6 +43,7 @@ spring:
 #      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       properties:
         linger.ms: 1
+
     consumer:
       enable-auto-commit: false # 自动提交否
       auto-commit-interval: 100ms
@@ -52,7 +60,12 @@ elasticsearch:
   connectionRequestTimeout: 5000
   maxConnectNum: 100
   maxConnectPerRoute: 100
-
+curator:
+  retryCount: 5  #重试次数
+  elapsedTimeMs: 5000   #重试间隔时间
+  connectString: 127.0.0.1:2181   # zookeeper 地址
+  sessionTimeoutMs: 60000  # session超时时间
+  connectionTimeoutMs: 5000  # 连接超时时间
 
 server:
   port: 9999
