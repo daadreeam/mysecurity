@@ -32,6 +32,8 @@ public class KafkaController {
                     @Override
                     public void onFailure(Throwable throwable) {
                         log.error("生产者发送消息失败 {}",throwable.getMessage());
+                        // 异常就自己重试
+                        send(topic, msg);
                     }
                 }
         );
