@@ -13,6 +13,7 @@
         <module>lsw-common</module>
         <module>lsw-config</module>
         <module>lsw-elasticsearch</module>
+        <module>craw</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
